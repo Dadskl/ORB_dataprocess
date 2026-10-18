@@ -1,0 +1,32 @@
+# Local environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated reports, extracted runs, plot-data bundles, and logs
+analysis_output/
+*_analysis/
+*_plot_data/
+validation/
+*.log
+*.inspection.txt
+*.inspect.ndjson
+
+# Large/raw experiment inputs and generated assets
+*.zip
+*.plot-data.zip
+*.bag
+*.db3
+*.mcap
+*.ply
+*.xlsx
+
+# Local editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
